@@ -1,0 +1,26 @@
+cabal-version:      3.0
+name:               https-not-supported
+version:            0.1.0.0
+-- synopsis:
+-- description:
+license:            MIT
+license-file:       LICENSE
+author:             Robertino Martinez
+maintainer:         48034748+rober-m@users.noreply.github.com
+-- copyright:
+category:           Testing
+build-type:         Simple
+extra-doc-files:    CHANGELOG.md
+-- extra-source-files:
+
+common warnings
+    ghc-options: -Wall
+
+executable https-not-supported
+    import:           warnings
+    main-is:          Main.hs
+    -- other-modules:
+    -- other-extensions:
+    build-depends:    base ^>=4.18.1.0
+    hs-source-dirs:   app
+    default-language: Haskell2010

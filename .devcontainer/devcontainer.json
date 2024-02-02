@@ -1,0 +1,16 @@
+{
+   "name": "PlutusTx",
+   "dockerFile":"Dockerfile",
+   "customizations":{
+      "vscode":{
+         "extensions":[
+            "haskell.haskell",
+            "vigoo.stylish-haskell"
+         ],
+         "settings":{
+            "haskell.manageHLS":"PATH",
+            "haskell.formattingProvider": "stylish-haskell"
+         }
+      }
+   }
+}
